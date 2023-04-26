@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Hoooooooooooooooooo</h1>
+<h2>this is cars models :)</h2>
+{% for x in cars %}
+    <h1>
+        {{x.name}}
+        {{x.price}}
+        {{x.model}}
+        {{x.date}}
+    </h1>
+    
+{% endfor %}
+{% endblock content %}
